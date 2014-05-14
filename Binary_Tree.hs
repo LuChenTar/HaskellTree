@@ -1,3 +1,8 @@
+-- File/Module name: (.hs)
+-- Author: Spinda
+-- Date: < 14 May 2014>
+-- Description: Haskel lab 10 tree
+
 module Binary_Tree (
  Binary_Tree (Null, Node, element, left_tree, right_tree), 
  size_of_tree, -- :: Integral b => Binary_Tree a -> b

@@ -1,3 +1,17 @@
+-- File/Module name: (.hs)
+-- Author: Spinda
+-- Date: < 14 May 2014>
+-- Description: Haskel lab 10 tree
+
+module Binary_Search_Tree (
+ BS_Tree (Binary_Tree), 
+ is_valid_binary_search_tree, -- :: Ord a => BS_Tree a -> Bool
+ minimum_element -- :: Ord a => BS_Tree a -> a
+ maximum_element -- :: Ord a => BS_Tree a -> a
+ flatten_in_order -- :: Ord a => BS_Tree a -> [a]
+ insert_element_to_tree -- :: Ord a => a -> BS_Tree a -> BS_Tree a
+) where
+
 import Binary_Tree
 import Data.List(sort)
 
